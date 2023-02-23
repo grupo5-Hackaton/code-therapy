@@ -48,39 +48,3 @@ h3 {
   display: flex;
   justify-content: space-between;
 }
-
-h3 {
-  font-size: 2rem;
-}
-
-.texto-grande {
-  font-weight: bold;
-  font-size: 1.25rem;
-}
-
-.texto-lila {
-  color: #7f56d9;
-}
-
-.fila-space-between {
-  display: flex;
-  justify-content: space-between;
-}
-
-h3 {
-  font-size: 2rem;
-}
-
-.texto-grande {
-  font-weight: bold;
-  font-size: 1.25rem;
-}
-
-.texto-lila {
-  color: #7f56d9;
-}
-
-.fila-space-between {
-  display: flex;
-  justify-content: space-between;
-}
