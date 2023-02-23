@@ -38,9 +38,7 @@ El grupo CaixaBank TECH nos encarga desarollar el siguente proyecto, un marketpl
 
 ### DIAGRAMA DE FLUJO
 
-
-
-
+![Captura de pantalla_20230223_205438](https://user-images.githubusercontent.com/117031310/221015813-30673e8b-9109-4a4c-ba52-5bcd85362931.png)
 
 
 ### HERRAMIENTAS Y LENGUAJES UTILIZADOS
@@ -121,9 +119,7 @@ CaixaBank TECH group commissions us to develop the following project, a marketpl
 
 ### FLOWCHART
 
-
-
-
+![Captura de pantalla_20230223_205438](https://user-images.githubusercontent.com/117031310/221015890-ca418348-94f3-4e80-95c0-7c2f0eb4de44.png)
 
 
 ### TOOLS AND LANGUAGES USED
