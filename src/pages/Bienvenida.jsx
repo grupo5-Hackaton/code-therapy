@@ -1,6 +1,6 @@
 import React from "react";
-import Buscador from "../components/Buscador";
-import Footer from "../components/Footer";
+import Buscador from "../components/buscador/Buscador";
+import Footer from "../components/footer/Footer";
 
 function Bienvenida() {
   return (
