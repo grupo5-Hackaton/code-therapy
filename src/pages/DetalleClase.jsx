@@ -19,10 +19,11 @@ const DetalleClase = () => {
   }, []);
 
   //Para llamar los parametros de la api utilizamos la var clase.parametro.
-
+  console.log(claseid)
+  console.log(clase.Nombre)
   return (
     <div>
-        {clase.Nombre}      
+        {clase.Nombre}
         {clase.id}
     </div>
   )
