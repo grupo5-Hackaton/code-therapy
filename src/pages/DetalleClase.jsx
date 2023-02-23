@@ -1,39 +1,37 @@
-// import { useParams } from 'react-router-dom'
+import { Link, useParams } from "react-router-dom";
 
-import React, {useEffect,useState} from 'react'
+import React, { useEffect, useState } from "react";
 // import axios from 'axios'
 
 const DetalleClase = () => {
-    const [clase, setClases] = useState(null);
+  const [clase, setClases] = useState(); //Utilizaremos useState para manipular los datos
+
+  //Referencia a nuestra api
+  const { claseid } = useParams();
+  console.log(claseid); //Traemos el parametro que pasamos por hooks
 
   useEffect(() => {
+    //Convertimos los datos json para ser leidos
     async function fetchObjeto() {
-      // const response = await axios.get('/api/objeto/1');
-      // setClases(response.data);
+      const response = await axios.get(
+        `http://127.0.0.1:8000/api/course/${claseid}`
+      ); //Hacemos referencia a nuestra ruta get individual(backend).
+      setClases(response.data);
     }
 
     fetchObjeto();
   }, []);
 
-
-
+  //Para llamar los parametros de la api utilizamos la var clase.parametro.
+  console.log(clase);
   return (
-    <div>{clase.map((proyecto)=>
-        <div className='separacion'>
-            <div className="card">
-                <div className='card-contenedor'>
-                    <div className='fila-space-between'>
-                        <p className='supra-titulo texto-lila'>{proyecto.id}</p>
-                    </div>
-                    <div className='fila-space-between'>
-                        <h3>{proyecto.Nombre}</h3>
-                        <p className='texto-lila texto-grande'>20 €/h</p>
-                    </div>
-                </div>
-        </div>
+    <div>
+      <div>
+        <h1>Aqui van las cosas </h1>
+      </div>
+      <Link to={"/Clases"}>Quiere ir pa'atras?</Link>
     </div>
-        )}</div>
-  )
-}
+  );
+};
 
-export default DetalleClase
+export default DetalleClase;
