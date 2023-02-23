@@ -5,6 +5,8 @@ import Bienvenida from "./pages/Bienvenida";
 import Perfil from "./pages/Perfil";
 import DetalleClases from "./pages/DetalleClase";
 import Layout from "./Layout/Layout";
+import ClaseEnDetalle from "./pages/ClaseEnDetalle/ClaseEnDetalle"
+import axios from "axios";
 
 function App() {
   return (
@@ -19,6 +21,10 @@ function App() {
           <Route path="/Clases" element={<Clases />} />
 
           <Route path="/DetalleClase/:claseid" element={<DetalleClases />} />
+
+          <Route path="/clase-en-detalle" element={<ClaseEnDetalle />} />
+      
+        
         </Route>  
         </Routes>
       </BrowserRouter>
