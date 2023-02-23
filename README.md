@@ -4,19 +4,19 @@
 Contexto del proyecto
 
 
-El grupo CaixaBank TECH nos encarga desrollar el siguente proyecto, un market place con los siguentes requesitos:
+El grupo CaixaBank TECH nos encarga desarollar el siguente proyecto, un marketplace con los siguentes requisitos:
 
 - Tematica Libre
 - Anuncios
 - Apartado Usuario/a
 - Apartado Cliente
-- Comunicacion entre Usuario y CLiente
+- Comunicacion entre Usuario y Cliente
 - Elegir slogan
-- Modelad el anuncio
+- Modelado el anuncio
 - Funcionalidades básicas y extras
 - Ejecución de Tests
 - CI/CD
-- Compilado de artifactos de despliegues
+- Compilado de artefactos de despliegues
 - Gestión de Dependencias, NPM, Yarn o Maven
 - Link a un repositorio GitHub
 
@@ -25,26 +25,27 @@ El grupo CaixaBank TECH nos encarga desrollar el siguente proyecto, un market pl
 
 ### PROTOTIPADO
 
-
-![descarga](https://user-images.githubusercontent.com/110049521/220899682-e7ec0ea6-0407-431d-9e4b-0cb23dd3e7ed.jpeg)
-
-
+![Captura de pantalla_20230223_135044](https://user-images.githubusercontent.com/117031310/220911664-cfaa2635-075b-45a6-8abe-7da48184777c.png)
 
 ### FIGMA
 
+![Captura de pantalla_20230223_134601](https://user-images.githubusercontent.com/117031310/220911827-6c68fc28-9a33-43ac-8e10-e698f7bbf4bc.png)
 
-![descarga](https://user-images.githubusercontent.com/110049521/220899708-537cf41b-6820-4ac6-b88c-97391a2ac4e2.jpeg)
+![Captura de pantalla_20230223_134810](https://user-images.githubusercontent.com/117031310/220911892-2f029de1-22c9-489c-8ed2-21cda06abc63.png)
 
+![Captura de pantalla_20230223_134834](https://user-images.githubusercontent.com/117031310/220911921-91392759-1dc9-4098-8cec-f456bf7fd5cf.png)
+
+![Captura de pantalla_20230223_135004](https://user-images.githubusercontent.com/117031310/220912047-c6d427ea-ab04-49c7-8341-d332662ef1ee.png)
 
 
 ### DIAGRAMA DE FLUJO
 
 
-![descarga](https://user-images.githubusercontent.com/110049521/220899724-52b8c710-5592-44b4-be6e-9e55b0144847.jpeg)
 
 
 
-### HERAMIENTAS Y LENGUAJES UTILIZADOS
+
+### HERRAMIENTAS Y LENGUAJES UTILIZADOS
 
 
 ### LENGUAJES
@@ -54,7 +55,7 @@ El grupo CaixaBank TECH nos encarga desrollar el siguente proyecto, un market pl
 - PHP
 
 
-### HERAMIENTAS
+### HERRAMIENTAS
 
 
 - Visual Studio Code
@@ -73,4 +74,10 @@ npm install
 
 ### AUTORES
 - [Arancha] (https://github..com/AranchaFdz)
-- [Cristina]
+- [Cristina] (https://github.com/Crisktina)
+- [Rosie] (https://github.com/Rosie-Bradshaw)
+- [Raquel] (https://github.com/raquel2002x)
+- [Silvia] (https://github.com/SpaceOddity7)
+- [Edu] (https://github.com/Elfin2)
+- [Noheli] (https://github.com/Nohee22)
+- [Brayan] (https://github.com/brayanedinson)
