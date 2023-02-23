@@ -1,7 +1,8 @@
 import React, {useEffect,useState} from 'react'
-import axios from 'axios'
+// import axios from 'axios'
 import Card from 'react-bootstrap/Card';
 import './Style.css'
+import arrow from '../../assets/arrow-up-right.png'
 
 
 
@@ -15,9 +16,9 @@ const CardClase = () => {
     },[])
 
     const getAllDetalles = async () =>{
-        const response = await axios.get(`${origin}/proyectos/`)
-        setDetalle(response.data)
-        console.log(response.data)
+        // const response = await axios.get(`${origin}/proyectos/`)
+        // setDetalle(response.data)
+        // console.log(response.data)
     }
 
 
@@ -27,28 +28,25 @@ const CardClase = () => {
             <h1>Las cosicas chulas</h1>
             <h2>Proyectos</h2>
             
-                {detalle.map((proyecto)=>
+                {/* {detalle.map((proyecto)=> */}
                 <div className='separacion'>
-                    <div className="card" key={proyecto.id}>
+                    <div className="card">
                         <Card>
-                            <Card.Header>{proyecto.id}</Card.Header>
-                            <Card.Body>
-                                <blockquote className="blockquote mb-0">
-                                <p>
-                                    {' '}
-                                    {proyecto.Nombre}
-                                    {' '}
-                                </p>
-                                <footer className="blockquote-footer">
-                                    Someone famous in <cite title="Source Title">Source Title</cite>
-                                </footer>
-                                </blockquote>
-                            </Card.Body>
+                            <div className='card-contenedor'>
+                                <div className='fila-space-between'>
+                                    <p className='supra-titulo texto-lila'>Typescript</p>
+                                    <img className='arrow' src={arrow} alt="" />
+                                </div>
+                                <div className='fila-space-between'>
+                                    <h3>¿Qué es Typescript?</h3>
+                                    <p className='texto-lila texto-grande'>20 €/h</p>
+                                </div>
+                            </div>
                         </Card>
                         
                     </div>
                 </div>
-                )}
+                {/* )} */}
             
         </section> 
     </div>
