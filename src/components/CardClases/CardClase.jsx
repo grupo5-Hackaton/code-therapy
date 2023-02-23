@@ -22,7 +22,7 @@ const CardClase = () => {
       <section id="experience">
         {detalle.map((proyecto) => (
           <div className="separacion" key={proyecto.id}>
-            <Link to={`/DetalleClase/${proyecto.id}`}>
+            <Link to={`/clase-en-detalle/${proyecto.id}`}>
               <div className="card">
                 <Card>
                   <div className="card-contenedor">
@@ -30,7 +30,7 @@ const CardClase = () => {
                       <p className="supra-titulo texto-lila">
                         {proyecto.language}
                       </p>
-                      <img className="arrow" src={arrow} alt="" />
+                      <img className="arrow" src={arrow} alt="Flecha" />
                     </div>
                     <div className="fila-space-between">
                       <h3>{proyecto.name}</h3>
