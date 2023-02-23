@@ -1,7 +1,7 @@
 import React from "react";
 
-function DetalleAnuncio() {
+function DetalleClase() {
   return <div>DetalleAnuncio</div>;
 }
 
-export default DetalleAnuncio;
+export default DetalleClase;
