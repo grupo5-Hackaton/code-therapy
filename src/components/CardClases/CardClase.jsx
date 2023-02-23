@@ -1,5 +1,5 @@
 import React, {useEffect,useState} from 'react'
-// import axios from 'axios'
+import axios from 'axios'
 import Card from 'react-bootstrap/Card';
 import arrow from '../../assets/arrow-up-right.png'
 import './Style.css'
@@ -17,9 +17,9 @@ const CardClase = () => {
     },[])
 
     const getAllDetalles = async () =>{
-        // const response = await axios.get(`${origin}/proyectos/`)
-        // setDetalle(response.data)
-        // console.log(response.data)
+         const response = await axios.get(`${origin}/proyectos/`)
+         setDetalle(response.data)
+         console.log(response.data)
     }
 
 
@@ -29,7 +29,7 @@ const CardClase = () => {
             <h1>Las cosicas chulas</h1>
             <h2>Proyectos</h2>
             
-                {/* {detalle.map((proyecto)=> */}
+                 {detalle.map((proyecto)=> 
                 <div className='separacion'>
                 <Link to={`/DetalleClase/${proyecto.id}`}>
                     <div className="card">
