@@ -1,7 +1,6 @@
 import React, {useEffect,useState} from 'react'
 // import axios from 'axios'
 import Card from 'react-bootstrap/Card';
-import './Style.css'
 import arrow from '../../assets/arrow-up-right.png'
 
 
