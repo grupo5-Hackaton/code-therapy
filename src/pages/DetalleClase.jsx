@@ -1,4 +1,4 @@
-// import { useParams } from 'react-router-dom'
+import { useParams } from 'react-router-dom'
 
 import React, {useEffect,useState} from 'react'
 import axios from 'axios'
@@ -6,33 +6,28 @@ import axios from 'axios'
 const DetalleClase = () => {
     const [clase, setClases] = useState(null);
 
+    const origin = 'http://127.0.0.1:8000/api'
+    const{claseid} = useParams()
+    console.log(claseid)
+
   useEffect(() => {
     async function fetchObjeto() {
-      const response = await axios.get('/api/objeto/1');
+      const response = await axios.get(`${origin}/proyecto/${claseid}`);
       setClases(response.data);
     }
 
     fetchObjeto();
   }, []);
 
-
+console.log(clase)
+console.log(clase.id)
+console.log(clase.Nombre)
 
   return (
-    <div>{clase.map((proyecto)=>
-        <div className='separacion'>
-            <div className="card">
-                <div className='card-contenedor'>
-                    <div className='fila-space-between'>
-                        <p className='supra-titulo texto-lila'>{proyecto.id}</p>
-                    </div>
-                    <div className='fila-space-between'>
-                        <h3>{proyecto.Nombre}</h3>
-                        <p className='texto-lila texto-grande'>20 €/h</p>
-                    </div>
-                </div>
-        </div>
+    <div>
+        {clase.Nombre}
+        {clase.id}
     </div>
-        )}</div>
   )
 }
 

@@ -30,7 +30,7 @@ const CardClase = () => {
             <h2>Proyectos</h2>
             
                  {detalle.map((proyecto)=> 
-                <div className='separacion'>
+                <div className='separacion' key={proyecto.id}>
                 <Link to={`/DetalleClase/${proyecto.id}`}>
                     <div className="card">
                     <Card>
