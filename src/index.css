@@ -6,6 +6,14 @@
 }
 
 
+*{
+  margin: 0;
+  padding: 0; 
+  outline: 0; 
+  box-sizing: border-box;
+}
+
+
 body {
   margin: 0;
   font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
@@ -19,6 +27,42 @@ code {
   font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
     "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+.texto-grande{
+  font-weight: bold; 
+  font-size: 1.25rem;
+}
+
+.texto-lila{
+  color: #7F56D9;
+}
+
+.fila-space-between {
+  display:flex;
+  justify-content: space-between;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+.texto-grande{
+  font-weight: bold; 
+  font-size: 1.25rem;
+}
+
+.texto-lila{
+  color: #7F56D9;
+}
+
+.fila-space-between {
+  display:flex;
+  justify-content: space-between;
 }
 
 h3 {
