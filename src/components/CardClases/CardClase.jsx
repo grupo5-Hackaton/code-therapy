@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import Card from "react-bootstrap/Card";
 import arrow from "../../assets/arrow-up-right.png";
-
 import { Link } from "react-router-dom";
 
 const CardClase = () => {
@@ -13,30 +12,31 @@ const CardClase = () => {
   }, []);
 
   const getAllDetalles = async () => {
-    const response = await axios.get(`${origin}/proyectos/`);
-    setDetalle(response.data);
-    console.log(response.data);
+    const response = await axios.get(`${origin}/course/`);
+    setDetalle(response.data.data);
+    console.log(response.data.data);
   };
 
   return (
     <div>
       <section id="experience">
-        <h1>Las cosicas chulas</h1>
-        <h2>Proyectos</h2>
-
         {detalle.map((proyecto) => (
-          <div className="separacion">
+          <div className="separacion" key={proyecto.id}>
             <Link to={`/DetalleClase/${proyecto.id}`}>
               <div className="card">
                 <Card>
                   <div className="card-contenedor">
                     <div className="fila-space-between">
-                      <p className="supra-titulo texto-lila">{proyecto.id}</p>
+                      <p className="supra-titulo texto-lila">
+                        {proyecto.language}
+                      </p>
                       <img className="arrow" src={arrow} alt="" />
                     </div>
                     <div className="fila-space-between">
-                      <h3>{proyecto.Nombre}</h3>
-                      <p className="texto-lila texto-grande">20 €/h</p>
+                      <h3>{proyecto.name}</h3>
+                      <p className="texto-lila texto-grande">
+                        {proyecto.price} €/h
+                      </p>
                     </div>
                   </div>
                 </Card>
