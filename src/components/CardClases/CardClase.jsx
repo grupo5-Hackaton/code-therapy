@@ -17,9 +17,9 @@ const CardClase = () => {
     },[])
 
     const getAllDetalles = async () =>{                         //Funcion para coger todos los datos de la api
-         const response = await axios.get(`${origin}/proyectos/`)   //Ruta necesaria para la cogida de información
-         setDetalle(response.data)
-         console.log(response.data)
+         const response = await axios.get(`${origin}/course/`)   //Ruta necesaria para la cogida de información
+         setDetalle(response.data.data)
+         console.log(response.data.data)
     }
 
 
@@ -40,7 +40,7 @@ const CardClase = () => {
                                     <img className='arrow' src={arrow} alt="" />
                                 </div>
                                 <div className='fila-space-between'>
-                                    <h3>{proyecto.Nombre}</h3>
+                                    <h3>{proyecto.name}</h3>
                                     <p className='texto-lila texto-grande'>20 €/h</p>
                                 </div>
                             </div>
@@ -56,8 +56,3 @@ const CardClase = () => {
 }
 
 export default CardClase
-
-
-
-
-
