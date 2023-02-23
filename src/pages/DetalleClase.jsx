@@ -1,7 +1,9 @@
-import React from "react";
+import React from 'react'
 
-function DetalleClase() {
-  return <div>DetalleAnuncio</div>;
+const DetalleClase = () => {
+  return (
+    <div>DetalleClase</div>
+  )
 }
 
-export default DetalleClase;
+export default DetalleClase
