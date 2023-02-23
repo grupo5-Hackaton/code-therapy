@@ -1,0 +1,22 @@
+.buscador-box {
+  border-radius: 8px;
+  width: 80%;
+  display: flex;
+  background-color: #d9f3e7;
+}
+
+.input-buscador {
+  background-color: #d9f3e7;
+  border: none;
+  padding: 1em;
+  width: 100%;
+  border-radius: 8px;
+}
+
+::placeholder {
+  color: var(--color-negro);
+}
+
+.input-icon {
+  width: 30px;
+}
