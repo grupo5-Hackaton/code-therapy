@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=La+Belle+Aurore&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -31,15 +33,16 @@ code {
   --color-azul20: rgba(68, 76, 231, 0.2);
 }
 
-:root {
-  --color-lila: #7f56d9;
-  --color-lila15: rgba(127, 86, 217, 0.15);
-  --color-negro: #1d2939;
-  --color-gris: #98a2b3;
-  --color-verde: #12b76a;
-  --color-verde16: rgba(18, 183, 106, 0.16);
-  --color-azul: #444ce7;
-  --color-azul20: rgba(68, 76, 231, 0.2);
+.h1-main {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: var(--color-lila);
+}
+
+.h2-main {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--color-negro);
 }
 
 h3 {
@@ -47,11 +50,7 @@ h3 {
 }
 
 p {
-  color: var(--color-gris)
-}
-
-p {
-  color: var(--color-gris)
+  color: var(--color-gris);
 }
 
 .texto-grande {
@@ -60,7 +59,7 @@ p {
   color: var(--color-negro);
 }
 
-.texto-lila{
+.texto-lila {
   color: var(--color-lila);
 }
 
@@ -69,52 +68,52 @@ p {
   justify-content: space-between;
 }
 
-.separacion{
+.separacion {
   margin-bottom: 0.5em;
 }
 
-.separacion-grande{
-  margin-bottom: 2em;;
+.separacion-grande {
+  margin-bottom: 2em;
 }
 
-.card-contenedor{
+.card-contenedor {
   padding: 1.5em;
 }
 
-.arrow{
+.arrow {
   width: 1.75em;
-  height: 1.75em
+  height: 1.75em;
 }
 
-.supra-titulo{
+.supra-titulo {
   font-weight: bold;
 }
 
-.centrado{
+.centrado {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.avatar{
-  height: 4em; 
+.avatar {
+  height: 4em;
   margin-right: 1.5em;
 }
 
-.columna{
+.columna {
   display: flex;
   flex-direction: column;
 }
 
-.fila{
+.fila {
   display: flex;
 }
 
-.alineado{
+.alineado {
   display: flex;
   align-items: center;
 }
 
-.margin-auto-0{
-  margin: auto 0
+.margin-auto-0 {
+  margin: auto 0;
 }
