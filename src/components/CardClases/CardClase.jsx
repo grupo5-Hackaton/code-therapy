@@ -1,7 +1,9 @@
 import React, {useEffect,useState} from 'react'
 import axios from 'axios'
 import Card from 'react-bootstrap/Card';
+import arrow from '../../assets/arrow-up-right.png'
 import './Style.css'
+import { Link } from 'react-router-dom';
 
 
 
@@ -29,25 +31,23 @@ const CardClase = () => {
             
                 {detalle.map((proyecto)=>
                 <div className='separacion'>
-                    <div className="card" key={proyecto.id}>
-                        <Card>
-                            <Card.Header>{proyecto.id}</Card.Header>
-                            <Card.Body>
-                                <blockquote className="blockquote mb-0">
-                                <p>
-                                    {' '}
-                                    {proyecto.Nombre}
-                                    {' '}
-                                </p>
-                                <footer className="blockquote-footer">
-                                    Someone famous in <cite title="Source Title">Source Title</cite>
-                                </footer>
-                                </blockquote>
-                            </Card.Body>
-                        </Card>
-                        
-                    </div>
-                </div>
+                <Link to={`/DetalleClase/${proyecto.id}`}>
+                    <div className="card">
+                    <Card>
+                        <div className='card-contenedor'>
+                            <div className='fila-space-between'>
+                                <p className='supra-titulo texto-lila'>{proyecto.id}</p>
+                                <img className='arrow' src={arrow} alt="" />
+                            </div>
+                            <div className='fila-space-between'>
+                                <h3>{proyecto.Nombre}</h3>
+                                <p className='texto-lila texto-grande'>20 €/h</p>
+                            </div>
+                        </div>
+                    </Card>
+                    
+                </div></Link>
+            </div>
                 )}
             
         </section> 
