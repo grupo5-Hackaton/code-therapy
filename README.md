@@ -160,4 +160,13 @@ npm install
 
 ### AUTHORS
 
-Translated with www.DeepL.com/Translator (free version)
+- [Arancha] (https://github..com/AranchaFdz)
+- [Cristina] (https://github.com/Crisktina)
+- [Rosie] (https://github.com/Rosie-Bradshaw)
+- [Raquel] (https://github.com/raquel2002x)
+- [Silvia] (https://github.com/SpaceOddity7)
+- [Edu] (https://github.com/Elfin2)
+- [Noheli] (https://github.com/Nohee22)
+- [Brayan] (https://github.com/brayanedinson)
+
+
