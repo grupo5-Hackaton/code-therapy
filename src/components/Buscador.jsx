@@ -1,7 +1,11 @@
 import React from "react";
 
 function Buscador() {
-  return <></>;
+  return (
+    <>
+      <input></input>
+    </>
+  );
 }
 
 export default Buscador;

@@ -1,14 +1,14 @@
 import React from "react";
 import Buscador from "../components/Buscador";
-import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 function Bienvenida() {
   return (
     <div>
-      <Header />
       <Buscador />
 
       <h1>Bienvenida</h1>
+      <Footer />
     </div>
   );
 }

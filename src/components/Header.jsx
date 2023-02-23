@@ -1,26 +1,36 @@
 import React from "react";
 import logo from "../assets/logo.svg";
-import Button from "react-bootstrap/Button";
-import Card from "react-bootstrap/Card";
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import Offcanvas from "react-bootstrap/Offcanvas";
 
 function Header() {
   return (
     <header>
-      <div>
-        <img src={logo} alt="Logo Code Therapy" />
-        <h1>Code Therapy</h1>
-      </div>
-      <Card style={{ width: "18rem" }}>
-        <Card.Img variant="top" src="holder.js/100px180" />
-        <Card.Body>
-          <Card.Title>Card Title</Card.Title>
-          <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </Card.Text>
-          <Button variant="primary">Go somewhere</Button>
-        </Card.Body>
-      </Card>
+      {[false].map((expand) => (
+        <Navbar key={expand} bg="" expand={expand} className="mb-3">
+          <Container fluid>
+            <Navbar.Brand href="#">
+              <img src={logo} alt="Logo Code Therapy" />
+            </Navbar.Brand>
+            <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
+            <Navbar.Offcanvas
+              id={`offcanvasNavbar-expand-${expand}`}
+              aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
+              placement="end"
+            >
+              <Offcanvas.Header closeButton></Offcanvas.Header>
+              <Offcanvas.Body>
+                <Nav className="justify-content-end flex-grow-1 pe-3">
+                  <Nav.Link href="#action1">Clases</Nav.Link>
+                  <Nav.Link href="#action2">Mentores</Nav.Link>
+                </Nav>
+              </Offcanvas.Body>
+            </Navbar.Offcanvas>
+          </Container>
+        </Navbar>
+      ))}
     </header>
   );
 }
