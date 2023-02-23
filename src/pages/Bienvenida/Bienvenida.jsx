@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import welcome from "../assets/img-welcome.svg";
+import welcome from "../../assets/img-welcome.svg";
 import "./Bienvenida.css"
-import Boton from "../components/boton/Boton";
+import Boton from "../../components/boton/Boton";
 
 function Bienvenida() {
   return (

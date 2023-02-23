@@ -1,12 +1,12 @@
-import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Clases from "./pages/Clases/Clases";
-import Bienvenida from "./pages/Bienvenida";
+import Bienvenida from "./pages/Bienvenida/Bienvenida";
 import Perfil from "./pages/Perfil";
 import DetalleClases from "./pages/DetalleClase";
 import Layout from "./Layout/Layout";
 import ClaseEnDetalle from "./pages/ClaseEnDetalle/ClaseEnDetalle"
-import axios from "axios";
+// import axios from "axios";
+import PageNotFound from "./pages/PageNotFound/PageNotFound";
 
 function App() {
   return (
@@ -24,7 +24,8 @@ function App() {
 
           <Route path="/clase-en-detalle" element={<ClaseEnDetalle />} />
       
-        
+          <Route path="*" element={<PageNotFound/>} />
+
         </Route>  
         </Routes>
       </BrowserRouter>
