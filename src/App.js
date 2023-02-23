@@ -5,6 +5,9 @@ import Bienvenida from "./pages/Bienvenida";
 import Perfil from "./pages/Perfil"
 import DetalleClases from "./pages/DetalleClase"
 
+
+//Rutas staticas excepto DetalleClase la cual es dinamica.
+
 function App() {
   return (
     <>
@@ -16,7 +19,7 @@ function App() {
 
         <Route path="/Clases" element={<Clases/>} />
 
-        <Route path="/DetalleClase/:claseid" element={<DetalleClases/>} />
+        <Route path="/DetalleClase/:claseid" element={<DetalleClases/>} />    {/* Se pasa el id para tener un termino de busqueda */}
 
       </Routes>
     </BrowserRouter>
