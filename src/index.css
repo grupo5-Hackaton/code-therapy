@@ -33,7 +33,7 @@ code {
 
 :root {
   --color-lila: #7f56d9;
-  --color-lila15: rgba(127, 86, 217, 0.15);
+  --color-lila15: #f0e4fc;
   --color-negro: #1d2939;
   --color-gris: #98a2b3;
   --color-verde: #12b76a;
@@ -42,12 +42,13 @@ code {
   --color-azul20: rgba(68, 76, 231, 0.2);
 }
 
-h3 {
-  font-size: 2rem;
+h2{
+  font-size: 3rem
 }
 
-p {
-  color: var(--color-gris)
+.h3-main {
+  font-size: 2rem;
+  margin-bottom: 0.75em;
 }
 
 p {
@@ -62,6 +63,10 @@ p {
 
 .texto-lila{
   color: var(--color-lila);
+}
+
+.texto-negro{
+  color: var(--color-negro)
 }
 
 .fila-space-between {
@@ -117,4 +122,16 @@ p {
 
 .margin-auto-0{
   margin: auto 0
+}
+
+.margin-0-auto{
+  margin: 0 auto
+}
+
+.hero-imagen{
+  margin: 2em auto;
+}
+
+.fondo-lila-claro{
+  background-color: var(--color-lila15);
 }

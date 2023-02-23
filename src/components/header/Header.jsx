@@ -5,11 +5,12 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Offcanvas from "react-bootstrap/Offcanvas";
 
+
 function Header() {
   return (
     <header>
       {[false].map((expand) => (
-        <Navbar key={expand} bg="" expand={expand} className="mb-3">
+        <Navbar key={expand} bg="" expand={expand} className="mb-3 fondo-lila-claro fixed-top">
           <Container fluid>
             <Navbar.Brand href="#">
               <img src={logo} alt="Logo Code Therapy" />

@@ -1,15 +1,15 @@
 // import { useParams } from 'react-router-dom'
 
 import React, {useEffect,useState} from 'react'
-import axios from 'axios'
+// import axios from 'axios'
 
 const DetalleClase = () => {
     const [clase, setClases] = useState(null);
 
   useEffect(() => {
     async function fetchObjeto() {
-      const response = await axios.get('/api/objeto/1');
-      setClases(response.data);
+      // const response = await axios.get('/api/objeto/1');
+      // setClases(response.data);
     }
 
     fetchObjeto();

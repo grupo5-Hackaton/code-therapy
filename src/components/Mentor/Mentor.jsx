@@ -19,10 +19,10 @@ const Mentor = () => {
 
 
   return (
-    <div className='alineado'>
+    <div className='alineado max-width-2'>
         <img className='avatar' src={avatar} alt="" />
         <div className='columna'>
-           <p className='texto-grande margin-auto-0'>Jane Cooper</p>
+           <p className='margin-auto-0 texto-negro'>Jane Cooper</p>
            <div className='fila margin-auto-0'>
                 <p className='texto-lila margin-auto-0'>4.3</p>
                 <img className='imagen-estrellas' src={estrellas} alt="" />

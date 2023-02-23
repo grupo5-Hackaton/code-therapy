@@ -3,6 +3,7 @@
   width: 80%;
   display: flex;
   background-color: #d9f3e7;
+  margin: 0 auto;
 }
 
 .input-buscador {
@@ -19,4 +20,5 @@
 
 .input-icon {
   width: 30px;
+  margin-left: 1em
 }

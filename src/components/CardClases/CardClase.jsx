@@ -1,8 +1,7 @@
 import React, {useEffect,useState} from 'react'
-import axios from 'axios'
+// import axios from 'axios'
 import Card from 'react-bootstrap/Card';
 import arrow from '../../assets/arrow-up-right.png'
-import './Style.css'
 import { Link } from 'react-router-dom';
 
 
@@ -17,9 +16,9 @@ const CardClase = () => {
     },[])
 
     const getAllDetalles = async () =>{
-         const response = await axios.get(`${origin}/proyectos/`)
-         setDetalle(response.data)
-         console.log(response.data)
+        //  const response = await axios.get(`${origin}/proyectos/`)
+        //  setDetalle(response.data)
+        //  console.log(response.data)
     }
 
 
