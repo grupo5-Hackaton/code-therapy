@@ -6,9 +6,6 @@ import Perfil from "./pages/Perfil";
 import DetalleClases from "./pages/DetalleClase";
 import Layout from "./Layout/Layout";
 import ClaseEnDetalle from "./pages/ClaseEnDetalle/ClaseEnDetalle";
-import axios from "axios";
-
-//Rutas staticas excepto DetalleClase la cual es dinamica.
 
 function App() {
   return (

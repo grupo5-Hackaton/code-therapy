@@ -1,7 +1,7 @@
 import { Link, useParams } from "react-router-dom";
 
 import React, { useEffect, useState } from "react";
-// import axios from 'axios'
+import axios from "axios";
 
 const DetalleClase = () => {
   const [clase, setClases] = useState(); //Utilizaremos useState para manipular los datos
