@@ -35,8 +35,6 @@ El grupo CaixaBank TECH nos encarga desarollar el siguente proyecto, un marketpl
 
 ![Captura de pantalla_20230223_134834](https://user-images.githubusercontent.com/117031310/220911921-91392759-1dc9-4098-8cec-f456bf7fd5cf.png)
 
-![Captura de pantalla_20230223_135004](https://user-images.githubusercontent.com/117031310/220912047-c6d427ea-ab04-49c7-8341-d332662ef1ee.png)
-
 
 ### DIAGRAMA DE FLUJO
 
@@ -120,8 +118,6 @@ CaixaBank TECH group commissions us to develop the following project, a marketpl
 ![Captura de pantalla_20230223_134810](https://user-images.githubusercontent.com/117031310/220911892-2f029de1-22c9-489c-8ed2-21cda06abc63.png)
 
 ![Captura de pantalla_20230223_134834](https://user-images.githubusercontent.com/117031310/220911921-91392759-1dc9-4098-8cec-f456bf7fd5cf.png)
-
-![Captura de pantalla_20230223_135004](https://user-images.githubusercontent.com/117031310/220912047-c6d427ea-ab04-49c7-8341-d332662ef1ee.png)
 
 
 ### FLOWCHART
