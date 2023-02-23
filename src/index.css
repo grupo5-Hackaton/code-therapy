@@ -45,10 +45,6 @@ code {
   color: var(--color-negro);
 }
 
-h2{
-  font-size: 3rem
-}
-
 .h3-main {
   font-size: 2rem;
   margin-bottom: 0.75em;
@@ -123,6 +119,15 @@ p {
   align-items: center;
 }
 
-.margin-auto-0{
-  margin: auto 0
+.margin-auto-0 {
+  margin: auto 0;
+}
+.margin-0-auto{
+  margin: 0 auto
+}
+.hero-imagen{
+  margin: 2em auto;
+}
+.fondo-lila-claro{
+  background-color: var(--color-lila15);
 }
