@@ -4,7 +4,7 @@
 Contexto del proyecto
 
 
-El grupo CaixaBank TECH nos encarga desarollar el siguente proyecto, un marketplace con los siguentes requisitos:
+El grupo CaixaBank TECH nos encarga desarrollar el siguente proyecto, un marketplace con los siguentes requisitos:
 
 - Tematica Libre
 - Anuncios
