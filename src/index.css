@@ -52,7 +52,7 @@ code {
 }
 
 p {
-  color: var(--color-gris)
+  color: var(--color-gris);
 }
 
 .texto-grande {
@@ -61,7 +61,7 @@ p {
   color: var(--color-negro);
 }
 
-.texto-700{
+.texto-700 {
   font-weight: bold;
 }
 
@@ -69,8 +69,8 @@ p {
   color: var(--color-lila);
 }
 
-.texto-negro{
-  color: var(--color-negro)
+.texto-negro {
+  color: var(--color-negro);
 }
 
 .supra-titulo {
@@ -119,27 +119,27 @@ p {
   margin: auto 0;
 }
 
-.margin-0-auto{
-  margin: 0 auto
+.margin-0-auto {
+  margin: 0 auto;
 }
 
-.fondo-lila-claro{
+.fondo-lila-claro {
   background-color: var(--color-lila15);
 }
 
-.vh-80{
-  max-height:80vh
+.vh-80 {
+  max-height: 80vh;
 }
 
-.top-margin-2em{
+.top-margin-2em {
   margin-top: 2em;
 }
 
-.margin-r-1{
+.margin-r-1 {
   margin-right: 1em;
 }
 
-.margin-l-1{
+.margin-l-1 {
   margin-left: 1em;
 }
 
@@ -155,12 +155,12 @@ p {
   margin-right: 1.5em;
 }
 
-.hero-imagen{
+.hero-imagen {
   margin: 2em auto;
 }
 
 /* ---------------- ESTILOS DE LINK ---------- */
-.link{
+.link {
   text-decoration: none;
-  margin-top:auto
+  margin-top: auto;
 }
