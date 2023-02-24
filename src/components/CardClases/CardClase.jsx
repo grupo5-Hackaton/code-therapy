@@ -14,7 +14,6 @@ const CardClase = () => {
   const getAllDetalles = async () => {
     const response = await axios.get(`${origin}/course/`);
     setDetalle(response.data.data);
-    console.log(response.data.data);
   };
 
   return (
@@ -22,7 +21,7 @@ const CardClase = () => {
       <section id="experience">
         {detalle.map((proyecto) => (
           <div className="separacion" key={proyecto.id}>
-            <Link to={`/clase-en-detalle/${proyecto.id}`}>
+            <Link to={`/clase-en-detalle`}>
               <div className="card">
                 <Card>
                   <div className="card-contenedor">

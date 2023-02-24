@@ -15,10 +15,7 @@ function App() {
 
             <Route path="/Clases" element={<Clases />} />
 
-            <Route
-              path="/clase-en-detalle/:claseid"
-              element={<ClaseEnDetalle />}
-            />
+            <Route path="/clase-en-detalle" element={<ClaseEnDetalle />} />
 
             <Route path="*" element={<PageNotFound />} />
           </Route>
