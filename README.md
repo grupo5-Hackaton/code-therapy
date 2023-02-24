@@ -1,70 +1,163 @@
-# Getting Started with Create React App
+# CODE-THERARY
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+Contexto del proyecto
 
-In the project directory, you can run:
 
-### `npm start`
+El grupo CaixaBank TECH nos encarga desarollar el siguente proyecto, un marketplace con los siguentes requisitos:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Tematica Libre
+- Anuncios
+- Apartado Usuario/a
+- Apartado Cliente
+- Comunicacion entre Usuario y Cliente
+- Elegir slogan
+- Modelado el anuncio
+- Funcionalidades básicas y extras
+- Ejecución de Tests
+- CI/CD
+- Compilado de artefactos de despliegues
+- Gestión de Dependencias, NPM, Yarn o Maven
+- Link a un repositorio GitHub
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## PARTES DEL PROYECTO
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### PROTOTIPADO
 
-### `npm run build`
+![Captura de pantalla_20230223_135044](https://user-images.githubusercontent.com/117031310/220911664-cfaa2635-075b-45a6-8abe-7da48184777c.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### FIGMA
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Captura de pantalla_20230223_134601](https://user-images.githubusercontent.com/117031310/220911827-6c68fc28-9a33-43ac-8e10-e698f7bbf4bc.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Captura de pantalla_20230223_134810](https://user-images.githubusercontent.com/117031310/220911892-2f029de1-22c9-489c-8ed2-21cda06abc63.png)
 
-### `npm run eject`
+![Captura de pantalla_20230223_195940](https://user-images.githubusercontent.com/117031310/221004834-5bc2d6e7-529e-4594-a0fa-b09b76a8c3dd.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### DIAGRAMA DE FLUJO
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![Captura de pantalla_20230223_205438](https://user-images.githubusercontent.com/117031310/221015813-30673e8b-9109-4a4c-ba52-5bcd85362931.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+### HERRAMIENTAS Y LENGUAJES UTILIZADOS
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### LENGUAJES
 
-### Code Splitting
+- Javascript
+- REACT JS
+- PHP
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+### HERRAMIENTAS
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+- Visual Studio Code
+- Trello
+- Figma
+- HTML
+- CSS
+- Boostrap
+- Laravel 8
+- MyPHPAdmin
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+### INSTALACION
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+npm install
 
-### Deployment
+### AUTORES
+- [Arancha] (https://github..com/AranchaFdz)
+- [Cristina] (https://github.com/Crisktina)
+- [Rosie] (https://github.com/Rosie-Bradshaw)
+- [Raquel] (https://github.com/raquel2002x)
+- [Silvia] (https://github.com/SpaceOddity7)
+- [Edu] (https://github.com/Elfin2)
+- [Noheli] (https://github.com/Nohee22)
+- [Brayan] (https://github.com/brayanedinson)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# CODE-THERARY
+
+
+Context of the project
+
+
+CaixaBank TECH group commissions us to develop the following project, a marketplace with the following requirements:
+
+- Free Theme
+- Ads
+- User section
+- Customer Section
+- Communication between User and Client
+- Choose slogan
+- Modelling the advertisement
+- Basic and extra functionalities
+- Execution of Tests
+- CI/CD
+- Compilation of deployment artifacts
+- Dependency, NPM, Yarn or Maven management
+- Link to a GitHub repository
+
+
+## PARTS OF THE PROJECT
+
+### PROTOTYPING
+
+![Captura de pantalla_20230223_135044](https://user-images.githubusercontent.com/117031310/220911664-cfaa2635-075b-45a6-8abe-7da48184777c.png)
+
+### FIGMA
+
+![Captura de pantalla_20230223_134601](https://user-images.githubusercontent.com/117031310/220911827-6c68fc28-9a33-43ac-8e10-e698f7bbf4bc.png)
+
+![Captura de pantalla_20230223_134810](https://user-images.githubusercontent.com/117031310/220911892-2f029de1-22c9-489c-8ed2-21cda06abc63.png)
+
+![Captura de pantalla_20230223_195940](https://user-images.githubusercontent.com/117031310/221004931-a6101c98-c6b2-403b-b71a-8033677ace9b.png)
+
+### FLOWCHART
+
+![Captura de pantalla_20230223_205438](https://user-images.githubusercontent.com/117031310/221015890-ca418348-94f3-4e80-95c0-7c2f0eb4de44.png)
+
+
+### TOOLS AND LANGUAGES USED
+
+
+### LANGUAGES
+
+- Javascript
+- REACT JS
+- PHP
+
+
+### TOOLS
+
+
+- Visual Studio Code
+- Trello
+- Figma
+- HTML
+- CSS
+- Boostrap
+- Laravel 8
+- MyPHPAdmin
+
+
+### INSTALLATION
+
+npm install
+
+### AUTHORS
+
+- [Arancha] (https://github..com/AranchaFdz)
+- [Cristina] (https://github.com/Crisktina)
+- [Rosie] (https://github.com/Rosie-Bradshaw)
+- [Raquel] (https://github.com/raquel2002x)
+- [Silvia] (https://github.com/SpaceOddity7)
+- [Edu] (https://github.com/Elfin2)
+- [Noheli] (https://github.com/Nohee22)
+- [Brayan] (https://github.com/brayanedinson)
+
+
